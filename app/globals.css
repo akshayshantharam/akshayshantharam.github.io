@@ -1,0 +1,372 @@
+@import "tailwindcss";
+
+/* ===========================================================
+   DR. AKSHAY S PORTFOLIO DESIGN SYSTEM
+=========================================================== */
+
+:root{
+  --background:#030712;
+  --surface:#0f172a;
+  --surface-2:#111827;
+  --surface-3:#1e293b;
+
+  --primary:#2563eb;
+  --primary-light:#3b82f6;
+  --secondary:#38bdf8;
+
+  --text:#ffffff;
+  --text-secondary:#cbd5e1;
+  --text-muted:#94a3b8;
+
+  --border:rgba(255,255,255,.08);
+
+  --radius:24px;
+}
+
+html{
+  scroll-behavior:smooth;
+}
+
+body{
+
+  background:var(--background);
+
+  color:var(--text);
+
+  font-family:var(--font-inter);
+
+  overflow-x:hidden;
+
+  -webkit-font-smoothing:antialiased;
+
+  text-rendering:optimizeLegibility;
+
+}
+
+/* Scrollbar */
+
+::-webkit-scrollbar{
+  width:10px;
+}
+
+::-webkit-scrollbar-track{
+  background:#020617;
+}
+
+::-webkit-scrollbar-thumb{
+  background:#2563eb;
+  border-radius:999px;
+}
+
+/* Selection */
+
+::selection{
+  background:#2563eb;
+  color:white;
+}
+
+/* Headings */
+
+h1{
+
+  font-weight:900;
+
+  letter-spacing:-2px;
+
+}
+
+h2{
+
+  font-weight:900;
+
+  letter-spacing:-1px;
+
+}
+
+h3{
+
+  font-weight:700;
+
+}
+
+p{
+
+  color:var(--text-secondary);
+
+}
+
+/* Images */
+
+img{
+
+  user-select:none;
+
+}
+
+/* Links */
+
+a{
+
+  text-decoration:none;
+
+  transition:.3s;
+
+}
+
+/* Sections */
+
+section{
+
+  position:relative;
+
+}
+
+/* Glass Card */
+
+.glass{
+
+  background:rgba(15,23,42,.65);
+
+  backdrop-filter:blur(18px);
+
+  border:1px solid rgba(255,255,255,.08);
+
+  border-radius:28px;
+
+}
+
+/* Hover Card */
+
+.hover-card{
+
+  transition:.35s ease;
+
+}
+
+.hover-card:hover{
+
+  transform:translateY(-8px);
+
+  border-color:#2563eb;
+
+  box-shadow:
+
+  0 25px 70px rgba(37,99,235,.18);
+
+}
+
+/* Gradient Text */
+
+.gradient-text{
+
+  background:linear-gradient(
+
+      90deg,
+
+      #60a5fa,
+
+      #38bdf8
+
+  );
+
+  -webkit-background-clip:text;
+
+  color:transparent;
+
+}
+
+/* Section Badge */
+
+.section-badge{
+
+  display:inline-flex;
+
+  align-items:center;
+
+  justify-content:center;
+
+  padding:10px 22px;
+
+  border-radius:999px;
+
+  background:rgba(37,99,235,.12);
+
+  color:#60a5fa;
+
+  border:1px solid rgba(59,130,246,.25);
+
+  font-size:.9rem;
+
+  font-weight:600;
+
+  letter-spacing:.5px;
+
+}
+
+/* Buttons */
+
+.btn-primary{
+
+  display:inline-flex;
+
+  align-items:center;
+
+  justify-content:center;
+
+  gap:10px;
+
+  padding:16px 32px;
+
+  border-radius:16px;
+
+  background:#2563eb;
+
+  color:white;
+
+  font-weight:700;
+
+  transition:.35s;
+
+}
+
+.btn-primary:hover{
+
+  background:#1d4ed8;
+
+  transform:translateY(-3px);
+
+}
+
+.btn-secondary{
+
+  display:inline-flex;
+
+  align-items:center;
+
+  justify-content:center;
+
+  gap:10px;
+
+  padding:16px 32px;
+
+  border-radius:16px;
+
+  border:1px solid rgba(255,255,255,.08);
+
+  background:rgba(255,255,255,.03);
+
+  color:white;
+
+  backdrop-filter:blur(10px);
+
+}
+
+.btn-secondary:hover{
+
+  background:rgba(255,255,255,.08);
+
+}
+
+/* Glow */
+
+.blue-glow{
+
+  position:absolute;
+
+  width:450px;
+
+  height:450px;
+
+  background:#2563eb;
+
+  border-radius:999px;
+
+  filter:blur(160px);
+
+  opacity:.18;
+
+}
+
+.cyan-glow{
+
+  position:absolute;
+
+  width:380px;
+
+  height:380px;
+
+  background:#06b6d4;
+
+  border-radius:999px;
+
+  filter:blur(150px);
+
+  opacity:.12;
+
+}
+
+/* Fade */
+
+.fade-up{
+
+  animation:fadeUp .8s ease forwards;
+
+}
+
+@keyframes fadeUp{
+
+  from{
+
+    opacity:0;
+
+    transform:translateY(35px);
+
+  }
+
+  to{
+
+    opacity:1;
+
+    transform:translateY(0);
+
+  }
+
+}
+
+/* Container */
+
+.container-xl{
+
+  width:min(1320px,92%);
+
+  margin:auto;
+
+}
+
+/* Responsive */
+
+@media(max-width:1024px){
+
+  h1{
+
+    font-size:3.8rem !important;
+
+  }
+
+}
+
+@media(max-width:768px){
+
+  h1{
+
+    font-size:3rem !important;
+
+  }
+
+  h2{
+
+    font-size:2.2rem !important;
+
+  }
+
+}
