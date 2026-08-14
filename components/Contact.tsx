@@ -88,7 +88,7 @@ export default function Contact() {
               <div className="mt-10 space-y-5">
 
                 <a
-                  href="https://scholar.google.com"
+                  href=" https://scholar.google.com/citations?user=x-2sNvoAAAAJ&hl=en  "
                   className="flex items-center justify-between rounded-2xl border border-white/10 bg-[#0f172a] px-6 py-5 transition hover:border-blue-500"
                 >
                   <span className="text-lg text-white">
@@ -96,12 +96,12 @@ export default function Contact() {
                   </span>
 
                   <span className="text-blue-400">
-                 https://scholar.google.com/citations?user=x-2sNvoAAAAJ&hl=en
+                   →
                   </span>
                 </a>
 
                 <a
-                  href="https://www.linkedin.com"
+                  href="https://www.linkedin.com/in/akshayshantharam/"
                   className="flex items-center justify-between rounded-2xl border border-white/10 bg-[#0f172a] px-6 py-5 transition hover:border-blue-500"
                 >
                   <span className="text-lg text-white">
@@ -112,9 +112,21 @@ export default function Contact() {
                     →
                   </span>
                 </a>
+  <a
+                  href="https://www.researchgate.net/profile/Akshay-S-2"
+                  className="flex items-center justify-between rounded-2xl border border-white/10 bg-[#0f172a] px-6 py-5 transition hover:border-blue-500"
+                >
+                  <span className="text-lg text-white">
+                    ResearchGate
+                  </span>
+
+                  <span className="text-blue-400">
+                    →
+                  </span>
+                </a>
 
                 <a
-                  href="https://github.com"
+                  href="https://github.com/akshayshantharam.com"
                   className="flex items-center justify-between rounded-2xl border border-white/10 bg-[#0f172a] px-6 py-5 transition hover:border-blue-500"
                 >
                   <span className="text-lg text-white">
@@ -127,7 +139,7 @@ export default function Contact() {
                 </a>
 
                 <a
-                  href="#"
+                  href="https://orcid.org/0000-0002-5740-7421"
                   className="flex items-center justify-between rounded-2xl border border-white/10 bg-[#0f172a] px-6 py-5 transition hover:border-blue-500"
                 >
                   <span className="text-lg text-white">
