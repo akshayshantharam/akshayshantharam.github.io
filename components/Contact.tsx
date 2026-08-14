@@ -43,7 +43,7 @@ export default function Contact() {
                   </p>
 
                   <p className="mt-2 text-xl font-semibold text-white">
-                    akshay@example.com
+                    akshayshantharam26@gmail.com
                   </p>
 
                 </div>
@@ -96,7 +96,7 @@ export default function Contact() {
                   </span>
 
                   <span className="text-blue-400">
-                    →
+                 https://scholar.google.com/citations?user=x-2sNvoAAAAJ&hl=en
                   </span>
                 </a>
 
