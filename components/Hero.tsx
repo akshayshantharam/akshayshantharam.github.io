@@ -121,7 +121,7 @@ export default function Hero() {
           <div className="relative overflow-hidden rounded-[32px] border border-white/10 bg-slate-900 p-3 shadow-[0_30px_80px_rgba(37,99,235,.25)]">
 
             <Image
-              src="/images/profile.jpg"
+              src="public/images/profile.jpg"
               alt="Dr. Akshay S"
               width={520}
               height={650}
