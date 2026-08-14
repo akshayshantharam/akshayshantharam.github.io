@@ -2,10 +2,10 @@
 
 const projects = [
   {
-    title: "EyePD",
-    year: "2025",
+    title: "iAOI",
+    year: "2023",
     description:
-      "A deep learning framework for identifying Parkinson's Disease cognitive subtypes using eye movement patterns captured during visual search tasks.",
+      "An Eye Movement Based Deep Learning Model to Identify Areas of Interest",
 
     tech: [
       "PyTorch",
@@ -51,10 +51,10 @@ const projects = [
   },
 
   {
-    title: "PDEMI",
+    title: "Pneumonia Detection",
     year: "2025",
     description:
-      "Parkinson's Disease Eye Movement Index for quantifying cognitive impairment through explainable eye movement analytics.",
+      "Hybrid deep learning and machine learning framework for automated pneumonia detection in chest X-ray images",
 
     tech: [
       "Explainable AI",
