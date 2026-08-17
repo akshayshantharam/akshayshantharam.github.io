@@ -17,8 +17,8 @@ const publications = [
   },
   {
     title:
-      "EyePD: Deep Learning Framework for Parkinson's Disease Classification using Eye Tracking",
-    venue: "International Journal",
+  "Hybrid deep learning and machine learning framework for automated pneumonia detection in chest X-ray images",
+    venue: "MethodsX • Elsevier",
     year: "2025",
     type: "Journal",
   },
@@ -38,10 +38,10 @@ const publications = [
   },
   {
     title:
-      "Explainable AI for Healthcare using Visual Behaviour Analytics",
-    venue: "Research Work",
-    year: "2026",
-    type: "Ongoing",
+      "Actor-critic guided CDBN with GAN augmentation for robust facial emotion recognition",
+   venue: "MethodsX • Elsevier",
+    year: "2025",
+    type: "Journal",
   },
 ];
 
