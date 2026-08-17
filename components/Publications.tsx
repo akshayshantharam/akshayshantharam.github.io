@@ -13,7 +13,7 @@ const publications = [
   authors: "A. Bhattacharya, N. Kamble, A. S, V. N, A. Stezin, S. Hegde, A. J, R. Yadav, P. Pal",
   venue: "Movement Disorders",
   year: 2020,
-  type: "Abstract",
+  type: "Q1 Journal",
   volume: "35 (Suppl 1)",
   link: "https://www.mdsabstracts.org/abstract/differentiating-parkinsons-disease-dementia-and-mild-cognitive-impairment-from-idiopathic-parkinsons-disease-using-machine-learning-approach/"
 },
@@ -125,11 +125,14 @@ export default function Publications() {
 
                   </h2>
 
-                  <button className="mt-6 rounded-xl border border-white/10 px-6 py-3 font-semibold text-white transition hover:bg-white/5">
-
-                    View Publication
-
-                  </button>
+                 <a
+  href={paper.link}
+  target="_blank"
+  rel="noopener noreferrer"
+  className="mt-6 inline-flex rounded-xl border border-white/10 px-6 py-3 font-semibold text-white transition hover:bg-white/5"
+>
+  View Publication
+</a>
 
                 </div>
 
