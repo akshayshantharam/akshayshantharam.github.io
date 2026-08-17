@@ -153,7 +153,7 @@ export default function Publications() {
         <div className="mt-16 text-center">
 
           <a
-            href="#"
+            href="/publications"
             className="inline-flex rounded-xl bg-blue-600 px-8 py-4 font-semibold text-white transition hover:bg-blue-500"
           >
             View All Publications
