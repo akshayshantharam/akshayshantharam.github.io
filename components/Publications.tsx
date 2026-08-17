@@ -7,6 +7,7 @@ const publications = [
     venue: "MethodsX • Elsevier",
     year: "2025",
     type: "Q1 Journal",
+    link:"https://doi.org/10.1016/j.mex.2025.103607"
   },
   {
   title: "Differentiating Parkinson’s Disease Dementia and Mild Cognitive Impairment from Idiopathic Parkinson’s Disease Using Machine Learning Approach",
@@ -23,6 +24,7 @@ const publications = [
     venue: "Procedia Computer Science",
     year: "2025",
     type: "Q2 Journal",
+    link: "https://doi.org/10.1016/j.procs.2025.04.381"
   },
   {
     title:
@@ -30,6 +32,7 @@ const publications = [
     venue: "MethodsX • Elsevier",
     year: "2025",
     type: "Q1 Journal",
+    link:"https://doi.org/10.1016/j.mex.2025.103729"
   },
   {
     title:
@@ -37,6 +40,7 @@ const publications = [
     venue: "Springer LNCS",
     year: "2023",
     type: "Q2 Book Chapter",
+    link:"https://doi.org/10.1007/978-3-031-36402-0_61"
   },
   {
     title:
@@ -44,6 +48,7 @@ const publications = [
     venue: "Springer LNCS",
     year: "2023",
     type: "Q2 Book Chapter",
+    link: "https://doi.org/10.1007/978-3-031-36402-0_55"
   },
   {
     title:
@@ -51,6 +56,7 @@ const publications = [
    venue: "MethodsX • Elsevier",
     year: "2025",
     type: "Q1 Journal",
+    link:"https://doi.org/10.1016/j.mex.2025.103774"
   },
 ];
 
