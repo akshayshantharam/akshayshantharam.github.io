@@ -6,42 +6,51 @@ const publications = [
       "EyeMap: A Deep Learning Framework for Parkinson's Disease Visual Cognition Analysis",
     venue: "MethodsX • Elsevier",
     year: "2025",
-    type: "Journal",
+    type: "Q1 Journal",
   },
+  {
+  title: "Differentiating Parkinson’s Disease Dementia and Mild Cognitive Impairment from Idiopathic Parkinson’s Disease Using Machine Learning Approach",
+  authors: "A. Bhattacharya, N. Kamble, A. S, V. N, A. Stezin, S. Hegde, A. J, R. Yadav, P. Pal",
+  venue: "Movement Disorders",
+  year: 2020,
+  type: "Abstract",
+  volume: "35 (Suppl 1)",
+  link: "https://www.mdsabstracts.org/abstract/differentiating-parkinsons-disease-dementia-and-mild-cognitive-impairment-from-idiopathic-parkinsons-disease-using-machine-learning-approach/"
+},
   {
     title:
       "EyeHelp: Low-Cost Webcam Based Eye Tracking for Healthcare Applications",
     venue: "Procedia Computer Science",
     year: "2025",
-    type: "Conference",
+    type: "Q2 Journal",
   },
   {
     title:
   "Hybrid deep learning and machine learning framework for automated pneumonia detection in chest X-ray images",
     venue: "MethodsX • Elsevier",
     year: "2025",
-    type: "Journal",
+    type: "Q1 Journal",
   },
   {
     title:
       "iAOI: Intelligent Areas of Interest Detection using Eye Tracking",
     venue: "Springer LNCS",
     year: "2023",
-    type: "Book Chapter",
+    type: "Q2 Book Chapter",
   },
   {
     title:
       "iSTIMULI: AI Framework for Cognitive Assessment using Eye Movements",
     venue: "Springer LNCS",
     year: "2023",
-    type: "Book Chapter",
+    type: "Q2 Book Chapter",
   },
   {
     title:
       "Actor-critic guided CDBN with GAN augmentation for robust facial emotion recognition",
    venue: "MethodsX • Elsevier",
     year: "2025",
-    type: "Journal",
+    type: "Q1 Journal",
   },
 ];
 
