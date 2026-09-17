@@ -22,7 +22,7 @@ const patents: Patent[] = [
     inventors: [],
     status: "Published Patent Application",
   },
-const patents: Patent[] = [
+
   {
     title:
       "DATA ANALYSIS SYSTEM",
@@ -33,7 +33,7 @@ const patents: Patent[] = [
     inventors: [],
     status: "Published Patent Application",
   },
- const patents: Patent[] = [
+
   {
     title:
       "PRIVACY-PRESERVING FACIAL STRESS DETECTION METHOD AND SYSTEM THEREOF",
@@ -44,7 +44,7 @@ const patents: Patent[] = [
     inventors: [],
     status: "Published Patent Application",
   }, 
-const patents: Patent[] = [
+
   {
     title:
       "A SYSTEM, APPARATUS, AND METHODS FOR PROCESSING AND ANALYSIS OF RADIOGRAPHIC IMAGE DATA",
