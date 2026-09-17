@@ -14,6 +14,39 @@ type Patent = {
 const patents: Patent[] = [
   {
     title:
+      "MULTI-DISEASE RISK STRATIFICATION SYSTEM FOR UNLINKED HEALTH DATASETS",
+    applicationNumber: "202641101161",
+    filingDate: "21/08/2026",
+    publicationDate: "21/08/2026",
+    applicant: "Amrita Vishwa Vidyapeetham",
+    inventors: [],
+    status: "Published Patent Application",
+  },
+const patents: Patent[] = [
+  {
+    title:
+      "DATA ANALYSIS SYSTEM",
+    applicationNumber: "202641102577",
+    filingDate: "25/08/2026",
+    publicationDate: "04/09/2026",
+    applicant: "Amrita Vishwa Vidyapeetham",
+    inventors: [],
+    status: "Published Patent Application",
+  },
+ const patents: Patent[] = [
+  {
+    title:
+      "PRIVACY-PRESERVING FACIAL STRESS DETECTION METHOD AND SYSTEM THEREOF",
+    applicationNumber: "202641098307",
+    filingDate: "13/08/2026",
+    publicationDate: "28/08/2026",
+    applicant: "Amrita Vishwa Vidyapeetham",
+    inventors: [],
+    status: "Published Patent Application",
+  }, 
+const patents: Patent[] = [
+  {
+    title:
       "A SYSTEM, APPARATUS, AND METHODS FOR PROCESSING AND ANALYSIS OF RADIOGRAPHIC IMAGE DATA",
     applicationNumber: "202641057735",
     filingDate: "06/05/2026",
