@@ -7,7 +7,7 @@ const stats = [
     desc: "Artificial Intelligence, Computer Vision and Healthcare AI",
   },
   {
-    value: "70+",
+    value: "80+",
     title: "Research Publications",
     desc: "International journals, conferences and book chapters",
   },
@@ -22,7 +22,7 @@ const stats = [
     desc: "Published in Springer Nature edited volumes",
   },
       {
-    value: "5",
+    value: "7",
     title: "Patents",
     desc: "Published",
   },
